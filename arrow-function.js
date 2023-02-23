@@ -20,3 +20,14 @@ const doMath = (num1, num2) => {
 */
 const multiply3 = (num1, num2, num3) => num1 * num2 * num3;
 // console.log(multiply3(2, 3, 4));
+
+/* 
+৩.৪ এইবার দুইটা প্যারামিটার ওয়ালা একটা অ্যারো ফাংশন নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ২ যোগ করবে তারপর যোগফল দুইটা গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো। 
+*/
+
+const solveMath = (num1, num2) => {
+    const add2Num1 = num1 + 2;
+    const add2Num2 = num2 + 2;
+    const result = add2Num1 * add2Num2;
+    return result;
+}
