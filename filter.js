@@ -3,4 +3,5 @@
 */
 const numbers = [11, 22, 33, 44, 55, 66, 77, 88, 99];
 const result = numbers.filter(number => number % 2);
-console.log(result);
+// console.log(result);
+
